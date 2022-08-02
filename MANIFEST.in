@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include building_block_sitework *.css
+recursive-include building_block_sitework *.csv
+recursive-include building_block_sitework *.html
+recursive-include building_block_sitework *.ico
+recursive-include building_block_sitework *.js
+recursive-include building_block_sitework *.json
+recursive-include building_block_sitework *.md
+recursive-include building_block_sitework *.png
+recursive-include building_block_sitework *.py
+recursive-include building_block_sitework *.svg
+recursive-include building_block_sitework *.txt
+recursive-exclude building_block_sitework *.pyc
